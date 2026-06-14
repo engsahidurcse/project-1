@@ -1,0 +1,6 @@
+@SchoolERP.Finance.API_HostAddress = http://localhost:5127
+
+GET {{SchoolERP.Finance.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

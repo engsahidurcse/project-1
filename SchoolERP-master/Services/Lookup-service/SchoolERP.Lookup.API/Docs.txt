@@ -1,0 +1,6 @@
+﻿# ১. UseSqlServer এরর তাড়ানোর জন্য EF Core SQL Server প্যাকেজ
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+# ২. AddMediatR এরর তাড়ানোর জন্য MediatR এর মেইন প্যাকেজ
+Install-Package MediatR

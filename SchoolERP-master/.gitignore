@@ -1,0 +1,15 @@
+# Visual Studio files
+.vs/
+[Bb]in/
+[Obj]/
+*.user
+*.suo
+*.sln.docstates
+
+# IDE - VS Code
+.vscode/
+
+# Packages
+*.nupkg
+/packages/**/bin/
+**/obj/

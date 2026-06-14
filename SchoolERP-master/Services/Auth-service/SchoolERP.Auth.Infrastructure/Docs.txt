@@ -1,0 +1,21 @@
+﻿Visual Studio-r top menu theke open korun: Tools > NuGet Package Manager > Package Manager Console।
+
+Tarpor, PMC-r opore Default project: ড্রপডাউন থেকে অবোশশই SchoolERP.Auth.Infrastructure সিলেক্ট করুন। এরপর নিচের কমান্ড ২টি একে একে রান করুন:
+
+Option A: যদি আপনি মাইগ্রেশন ফাইল এবং ডাটাবেজ টেবিল স্কিমা তৈরি করতে চান, তাহলে নিচের কমান্ডটি রান করুন:
+
+
+# ১. মাইগ্রেশন ফাইল এবং ডাটাবেজ টেবিল স্কিমা তৈরি করা
+Add-Migration Update_Auth_Matrix_2026 -Context AuthDbContext -StartupProject SchoolERP.Auth.API
+
+# ২. লোকাল এসকিউএল সার্ভারে টেবিলগুলো পুশ/তৈরি করা
+Update-Database -Context AuthDbContext -StartupProject SchoolERP.Auth.API
+
+Option B: .NET CLI (যদি টার্মিনাল বা CMD ইউজ করেন)
+Apni jodi VS Code ba direct Solution root folder-e terminal (CMD / PowerShell) open kore kaj korte chann, tobe nicher commands gulo run korun:
+
+# ১. মাইগ্রেশন অ্যাড করা
+dotnet ef migrations add Init_Auth_System --project SchoolERP.Auth.Infrastructure --startup-project SchoolERP.Auth.API
+
+# ২. ডাটাবেজ আপডেট করা
+dotnet ef database update --project SchoolERP.Auth.Infrastructure --startup-project SchoolERP.Auth.API

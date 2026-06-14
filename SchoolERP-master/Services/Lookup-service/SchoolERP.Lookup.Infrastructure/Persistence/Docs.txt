@@ -1,0 +1,5 @@
+﻿# ১. নতুন মাইগ্রেশন যোগ করার কমান্ড (Update_Lookup_Matrix এর জায়গায় যেকোনো নাম দিতে পারেন)
+Add-Migration Update_Lookup_Matrix_2026 -Context LookupDbContext -StartupProject SchoolERP.Lookup.API
+
+# ২. ডাটাবেজ আপডেট করার কমান্ড
+Update-Database -Context LookupDbContext -StartupProject SchoolERP.Lookup.API

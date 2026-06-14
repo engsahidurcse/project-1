@@ -1,0 +1,21 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UserSecretsId>768428f8-bd02-43c5-8970-402f9dbb581c</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\gateway\SchoolERP.Gateway\SchoolERP.Gateway.csproj" />
+
+		<ProjectReference Include="..\SchoolERP.ServiceDefaults\SchoolERP.ServiceDefaults.csproj" IsAspireProjectResource="false" />
+
+		<ProjectReference Include="..\services\Auth-service\SchoolERP.Auth.API\SchoolERP.Auth.API.csproj" />
+		<ProjectReference Include="..\services\Exam-service\SchoolERP.Exam.API\SchoolERP.Exam.API.csproj" />
+		<ProjectReference Include="..\services\Finance-service\SchoolERP.Finance.API\SchoolERP.Finance.API.csproj" />
+		<ProjectReference Include="..\services\Lookup-service\SchoolERP.Lookup.API\SchoolERP.Lookup.API.csproj" />
+		<ProjectReference Include="..\services\Student-service\SchoolERP.Student.API\SchoolERP.Student.API.csproj" />
+	</ItemGroup>
+</Project>

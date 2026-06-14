@@ -1,0 +1,6 @@
+﻿Get-ChildItem -Filter bin -Recurse | Remove-Item -Force -Recurse; Get-ChildItem -Filter obj -Recurse | Remove-Item -Force -Recurse
+
+//file lock appsettings.development.json
+git ls-files | grep -i appsettings.development.json | xargs git update-index --assume-unchanged
+
+git ls-files -v | grep -E "^[a-z]"

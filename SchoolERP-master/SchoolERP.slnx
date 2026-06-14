@@ -1,0 +1,42 @@
+<Solution>
+  <Folder Name="/building-blocks/">
+    <Project Path="building-blocks/SchoolERP.EventBus/SchoolERP.EventBus.csproj" />
+    <Project Path="building-blocks/SchoolERP.Shared/SchoolERP.Shared.csproj" />
+  </Folder>
+  <Folder Name="/gateway/">
+    <Project Path="gateway/SchoolERP.Gateway/SchoolERP.Gateway.csproj" />
+  </Folder>
+  <Folder Name="/services/" />
+  <Folder Name="/services/Auth-service/">
+    <Project Path="services/Auth-service/SchoolERP.Auth.API/SchoolERP.Auth.API.csproj" />
+    <Project Path="services/Auth-service/SchoolERP.Auth.Application/SchoolERP.Auth.Application.csproj" />
+    <Project Path="services/Auth-service/SchoolERP.Auth.Domain/SchoolERP.Auth.Domain.csproj" />
+    <Project Path="services/Auth-service/SchoolERP.Auth.Infrastructure/SchoolERP.Auth.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/services/Exam-service/">
+    <Project Path="services/Exam-service/SchoolERP.Exam.API/SchoolERP.Exam.API.csproj" />
+    <Project Path="services/Exam-service/SchoolERP.Exam.Application/SchoolERP.Exam.Application.csproj" />
+    <Project Path="services/Exam-service/SchoolERP.Exam.Domain/SchoolERP.Exam.Domain.csproj" />
+    <Project Path="services/Exam-service/SchoolERP.Exam.Infrastructure/SchoolERP.Exam.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/services/Finance-service/">
+    <Project Path="services/Finance-service/SchoolERP.Finance.API/SchoolERP.Finance.API.csproj" />
+    <Project Path="services/Finance-service/SchoolERP.Finance.Application/SchoolERP.Finance.Application.csproj" />
+    <Project Path="services/Finance-service/SchoolERP.Finance.Domain/SchoolERP.Finance.Domain.csproj" />
+    <Project Path="services/Finance-service/SchoolERP.Finance.Infrastructure/SchoolERP.Finance.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/services/Lookup-service/">
+    <Project Path="services/Lookup-service/SchoolERP.Lookup.API/SchoolERP.Lookup.API.csproj" />
+    <Project Path="services/Lookup-service/SchoolERP.Lookup.Application/SchoolERP.Lookup.Application.csproj" />
+    <Project Path="services/Lookup-service/SchoolERP.Lookup.Domain/SchoolERP.Lookup.Domain.csproj" />
+    <Project Path="services/Lookup-service/SchoolERP.Lookup.Infrastructure/SchoolERP.Lookup.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/services/Student-service/">
+    <Project Path="services/Student-service/SchoolERP.Student.API/SchoolERP.Student.API.csproj" />
+    <Project Path="services/Student-service/SchoolERP.Student.Application/SchoolERP.Student.Application.csproj" />
+    <Project Path="services/Student-service/SchoolERP.Student.Domain/SchoolERP.Student.Domain.csproj" />
+    <Project Path="services/Student-service/SchoolERP.Student.Infrastructure/SchoolERP.Student.Infrastructure.csproj" />
+  </Folder>
+  <Project Path="SchoolERP.AppHost/SchoolERP.AppHost.csproj" Id="2ab1663b-0b46-4fc6-b0fd-5cad49200229" />
+  <Project Path="SchoolERP.ServiceDefaults/SchoolERP.ServiceDefaults.csproj" Id="eab1a539-034a-4f67-b3b4-a8149731d6ca" />
+</Solution>
